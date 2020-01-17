@@ -1,4 +1,7 @@
 #Faça um programa em python que abra e reproduza o audio de um arquivo MP3.
 
-import playsound
-playsound.playsound('/Users/Ninho/PycharmProjects/musga.mp3', True)
+from playsound import playsound
+import pygame
+playsound('/Users/Ninho/PycharmProjects/PythonExercicios/ex021.mp3', True)
+pygame.init()
+
