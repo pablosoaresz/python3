@@ -1,3 +1,4 @@
+__autor__= 'pablosoaresz'
 medida = float(input('Digite a distância em metros: '))
 
 #Decímetros

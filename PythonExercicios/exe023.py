@@ -1,3 +1,4 @@
+__autor__= 'pablosoaresz'
 #Faça um programa que leia o número de 0 a 9999 e mostre na tela cada um dos dígitos separados
 #Ex: Digite um número: 1834
 #Unidade: 3
