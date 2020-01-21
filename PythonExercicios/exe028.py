@@ -4,10 +4,20 @@ __autor__= 'pablosoaresz'
 #O programa deverá escrever na tela se o usuário venceu ou perdeu.
 
 import random
+from time import sleep
 num = random.randrange(6)
-user_num = int(input('O computador irá "pensar" em um número entre 0 e 5, digite '
-                     '\no número que você acha que o computador pensou: '))
+#Ou
+#from random import randint
+#comput = randint(0, 5)
+
+user_num = int(input('Vou pensar em um número entre 0 e 5. Em que número eu pensei? '))
+
+print('Processando...')
+sleep(3)
+
+print('-=-' * 25)
 if user_num == num:
-    print('Parabéns você GANHOU ao usar o número {}, e o computador pensou este número: {}.'.format(user_num, num))
+    print('Parabéns você GANHOU ao usar o número {}, eu pensei nele mesmo! ^_~'.format(user_num, num))
 else:
-    print('Você PERDEU ao usar o número {}, o computador pensou no número: {}!'.format(user_num,num))
+    print('Você PERDEU ao usar o número {}, eu pensei no número: {}! Muhauhuahuahauha'.format(user_num,num))
+print('-=-' * 25)
