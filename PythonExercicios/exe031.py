@@ -7,3 +7,7 @@ if dist > 200.00:
     print('O valor da passagem será de R${:.2f} para percorrer os {:.0f} Kms indicados.'.format(dist * 0.45, dist))
 else:
     print('O valor da passagem será de R${:.2f} para percorrer os {:.0f} Kms indicados.'.format(dist * 0.50, dist))
+
+#Ou
+valor = dist * 0.50 if dist <= 200 else dist * 0.45
+print('{:.2f}'.format(valor))

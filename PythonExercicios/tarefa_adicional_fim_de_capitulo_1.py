@@ -1,0 +1,1 @@
+# Colocar cores em todos os outros 35 exercícios.
